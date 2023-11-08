@@ -10,4 +10,37 @@
 
 .blogItemh3{
     cursor: pointer;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
 }
+
+.blogItemp{
+    max-width: 45vw;
+}
+
+.btn{
+    color: white;
+    background-color: black;
+    padding: 7px 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    /* border: none; */
+  }
+
+  @media only screen and (max-width: 400px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 2rem;
+        min-height: 100vh;
+        gap: 40px;
+    }
+
+    .blogItemp{
+        max-width: 100vw;
+    }
+    
+  }
